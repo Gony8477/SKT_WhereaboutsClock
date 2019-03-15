@@ -1,0 +1,287 @@
+WARNING|wrapper|Service traccar|17-05-05 06:39:21|YAJSW: yajsw-stable-12.08
+WARNING|wrapper|Service traccar|17-05-05 06:39:21|OS   : Linux/3.13.0-74-generic/amd64
+WARNING|wrapper|Service traccar|17-05-05 06:39:21|JVM  : Oracle Corporation/1.7.0_121//usr/lib/jvm/java-7-openjdk-amd64/jre/64
+INFO|wrapper|Service traccar|17-05-05 06:39:21|exec:"java" "-classpath" "/opt/traccar/wrapperApp.jar:/opt/traccar/tracker-server.jar:/opt/traccar/lib/log4j-1.2.17.jar:/opt/traccar/lib/joda-time-2.9.9.jar:/opt/traccar/lib/h2-1.4.194.jar:/opt/traccar/lib/mysql-connector-java-5.1.41.jar:/opt/traccar/lib/postgresql-42.0.0.jre7.jar:/opt/traccar/lib/mssql-jdbc-6.1.0.jre7.jar:/opt/traccar/lib/HikariCP-java7-2.4.11.jar:/opt/traccar/lib/slf4j-api-1.7.21.jar:/opt/traccar/lib/netty-3.10.6.Final.jar:/opt/traccar/lib/async-http-client-1.9.40.jar:/opt/traccar/lib/slf4j-simple-1.7.25.jar:/opt/traccar/lib/javax.json-1.0.4.jar:/opt/traccar/lib/jetty-server-9.2.21.v20170120.jar:/opt/traccar/lib/javax.servlet-api-3.1.0.jar:/opt/traccar/lib/jetty-http-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-io-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-servlet-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-security-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-webapp-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-xml-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-jndi-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-util-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-server-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-common-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-api-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-client-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-servlet-9.2.21.v20170120.jar:/opt/traccar/lib/jersey-container-servlet-2.25.1.jar:/opt/traccar/lib/jersey-container-servlet-core-2.25.1.jar:/opt/traccar/lib/javax.inject-2.5.0-b32.jar:/opt/traccar/lib/jersey-common-2.25.1.jar:/opt/traccar/lib/javax.annotation-api-1.2.jar:/opt/traccar/lib/jersey-guava-2.25.1.jar:/opt/traccar/lib/hk2-api-2.5.0-b32.jar:/opt/traccar/lib/hk2-utils-2.5.0-b32.jar:/opt/traccar/lib/aopalliance-repackaged-2.5.0-b32.jar:/opt/traccar/lib/hk2-locator-2.5.0-b32.jar:/opt/traccar/lib/javassist-3.20.0-GA.jar:/opt/traccar/lib/osgi-resource-locator-1.0.1.jar:/opt/traccar/lib/jersey-server-2.25.1.jar:/opt/traccar/lib/jersey-client-2.25.1.jar:/opt/traccar/lib/jersey-media-jaxb-2.25.1.jar:/opt/traccar/lib/validation-api-1.1.0.Final.jar:/opt/traccar/lib/javax.ws.rs-api-2.0.1.jar:/opt/traccar/lib/jersey-media-json-jackson-2.25.1.jar:/opt/traccar/lib/jersey-entity-filtering-2.25.1.jar:/opt/traccar/lib/jackson-jaxrs-base-2.8.4.jar:/opt/traccar/lib/jackson-core-2.8.4.jar:/opt/traccar/lib/jackson-databind-2.8.4.jar:/opt/traccar/lib/jackson-jaxrs-json-provider-2.8.4.jar:/opt/traccar/lib/jackson-module-jaxb-annotations-2.8.4.jar:/opt/traccar/lib/jackson-annotations-2.8.4.jar:/opt/traccar/lib/liquibase-core-3.5.3.jar:/opt/traccar/lib/snakeyaml-1.17.jar:/opt/traccar/lib/mail-1.4.7.jar:/opt/traccar/lib/activation-1.1.jar:/opt/traccar/lib/jxls-2.4.0.jar:/opt/traccar/lib/commons-jexl-2.1.1.jar:/opt/traccar/lib/commons-beanutils-1.9.2.jar:/opt/traccar/lib/jcl-over-slf4j-1.7.12.jar:/opt/traccar/lib/logback-core-1.1.3.jar:/opt/traccar/lib/jxls-poi-1.0.12.jar:/opt/traccar/lib/poi-3.14.jar:/opt/traccar/lib/poi-ooxml-3.14.jar:/opt/traccar/lib/poi-ooxml-schemas-3.14.jar:/opt/traccar/lib/xmlbeans-2.6.0.jar:/opt/traccar/lib/stax-api-1.0.1.jar:/opt/traccar/lib/curvesapi-1.03.jar:/opt/traccar/lib/velocity-1.7.jar:/opt/traccar/lib/commons-collections-3.2.1.jar:/opt/traccar/lib/commons-lang-2.4.jar:/opt/traccar/lib/velocity-tools-2.0.jar:/opt/traccar/lib/commons-digester-1.8.jar:/opt/traccar/lib/commons-chain-1.1.jar:/opt/traccar/lib/commons-logging-1.1.jar:/opt/traccar/lib/servlet-api-2.3.jar:/opt/traccar/lib/commons-validator-1.3.1.jar:/opt/traccar/lib/dom4j-1.1.jar:/opt/traccar/lib/oro-2.0.8.jar:/opt/traccar/lib/sslext-1.2-0.jar:/opt/traccar/lib/struts-core-1.3.8.jar:/opt/traccar/lib/antlr-2.7.2.jar:/opt/traccar/lib/struts-taglib-1.3.8.jar:/opt/traccar/lib/struts-tiles-1.3.8.jar:/opt/traccar/lib/ical4j-2.0.0.jar:/opt/traccar/lib/commons-collections4-4.0.jar:/opt/traccar/lib/groovy-all-2.3.2.jar:/opt/traccar/lib/bndlib-2.3.0.jar:/opt/traccar/lib/org.osgi.core-4.3.1.jar:/opt/traccar/lib/commons-lang3-3.3.2.jar:/opt/traccar/lib/commons-codec-1.9.jar:/opt/traccar/lib/ch-smpp-5.0.9.jar:/opt/traccar/lib/ch-commons-util-6.0.2.jar:/opt/traccar/lib/ch-commons-charset-3.0.2.jar" "-Dfile.encoding=UTF-8" "-Xrs" "-Dwrapper.service=true" "-Dwrapper.console.visible=false" "-Dwrapper.port=15003" "-Dwrapper.key=4055966319544043755" "-Dwrapper.teeName=4055966319544043755$1493966361346" "-Dwrapper.tmp.path=/opt/traccar/tmp" "-Djna_tmpdir=/opt/traccar/tmp" "-Dwrapper.config=/opt/traccar/conf/wrapper.conf" "-Dwrapper.visible=false" "-Dwrapper.pidfile=/run/wrapper.traccar.pid" "org.rzo.yajsw.app.WrapperJVMMain" 
+INFO|wrapper|Service traccar|17-05-05 06:39:21|posix_spawn pid 14132
+INFO|wrapper|Service traccar|17-05-05 06:39:21|started process 14132
+INFO|wrapper|Service traccar|17-05-05 06:39:21|started process with pid 14132
+INFO|14132/0|Service traccar|17-05-05 06:39:23|[INFO] StandardFileSystemManager - Using "/tmp/vfs_cache" as temporary files store.
+INFO|14132/0|Service traccar|17-05-05 06:39:24|[main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO|14132/0|Service traccar|17-05-05 06:39:29|[main] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+INFO|14132/0|Service traccar|17-05-05 06:39:29|com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:918)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2115)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2040)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:95)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:101)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:341)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:193)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:428)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:499)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:112)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:72)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at org.traccar.database.DataManager.initDatabase(DataManager.java:115)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at org.traccar.database.DataManager.<init>(DataManager.java:70)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at org.traccar.Context.init(Context.java:207)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at org.traccar.Main.main(Main.java:35)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at java.lang.reflect.Method.invoke(Method.java:606)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at org.rzo.yajsw.app.WrapperJVMMain.executeMain(WrapperJVMMain.java:60)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at org.rzo.yajsw.app.WrapperJVMMain.main(WrapperJVMMain.java:43)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+INFO|14132/0|Service traccar|17-05-05 06:39:29|
+INFO|14132/0|Service traccar|17-05-05 06:39:29|The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2056)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	... 28 more
+INFO|14132/0|Service traccar|17-05-05 06:39:29|Caused by: java.net.UnknownHostException: [HOST]
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at java.net.InetAddress.getAllByName(InetAddress.java:1183)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at java.net.InetAddress.getAllByName(InetAddress.java:1119)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:188)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	... 30 more
+INFO|14132/0|Service traccar|17-05-05 06:39:29|java.lang.reflect.InvocationTargetException
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at java.lang.reflect.Method.invoke(Method.java:606)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at org.rzo.yajsw.app.WrapperJVMMain.executeMain(WrapperJVMMain.java:60)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at org.rzo.yajsw.app.WrapperJVMMain.main(WrapperJVMMain.java:43)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|Caused by: com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:528)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:520)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:112)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:72)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at org.traccar.database.DataManager.initDatabase(DataManager.java:115)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at org.traccar.database.DataManager.<init>(DataManager.java:70)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at org.traccar.Context.init(Context.java:207)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at org.traccar.Main.main(Main.java:35)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	... 6 more
+INFO|14132/0|Service traccar|17-05-05 06:39:29|Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:918)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2115)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2040)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+INFO|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:95)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:101)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:341)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:193)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:428)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:499)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	... 12 more
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2056)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	... 28 more
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|Caused by: java.net.UnknownHostException: [HOST]
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	at java.net.InetAddress.getAllByName(InetAddress.java:1183)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	at java.net.InetAddress.getAllByName(InetAddress.java:1119)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:188)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+FINEST|14132/0|Service traccar|17-05-05 06:39:29|	... 30 more
+INFO|wrapper|Service traccar|17-05-05 06:39:30|waitpid 14132 59136
+INFO|wrapper|Service traccar|17-05-05 06:39:30|exit code posix process: 59136 application: 0
+WARNING|wrapper|Service traccar|17-05-05 07:31:05|YAJSW: yajsw-stable-12.08
+WARNING|wrapper|Service traccar|17-05-05 07:31:05|OS   : Linux/3.13.0-74-generic/amd64
+WARNING|wrapper|Service traccar|17-05-05 07:31:05|JVM  : Oracle Corporation/1.7.0_121//usr/lib/jvm/java-7-openjdk-amd64/jre/64
+INFO|wrapper|Service traccar|17-05-05 07:31:05|exec:"java" "-classpath" "/opt/traccar/wrapperApp.jar:/opt/traccar/tracker-server.jar:/opt/traccar/lib/log4j-1.2.17.jar:/opt/traccar/lib/joda-time-2.9.9.jar:/opt/traccar/lib/h2-1.4.194.jar:/opt/traccar/lib/mysql-connector-java-5.1.41.jar:/opt/traccar/lib/postgresql-42.0.0.jre7.jar:/opt/traccar/lib/mssql-jdbc-6.1.0.jre7.jar:/opt/traccar/lib/HikariCP-java7-2.4.11.jar:/opt/traccar/lib/slf4j-api-1.7.21.jar:/opt/traccar/lib/netty-3.10.6.Final.jar:/opt/traccar/lib/async-http-client-1.9.40.jar:/opt/traccar/lib/slf4j-simple-1.7.25.jar:/opt/traccar/lib/javax.json-1.0.4.jar:/opt/traccar/lib/jetty-server-9.2.21.v20170120.jar:/opt/traccar/lib/javax.servlet-api-3.1.0.jar:/opt/traccar/lib/jetty-http-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-io-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-servlet-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-security-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-webapp-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-xml-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-jndi-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-util-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-server-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-common-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-api-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-client-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-servlet-9.2.21.v20170120.jar:/opt/traccar/lib/jersey-container-servlet-2.25.1.jar:/opt/traccar/lib/jersey-container-servlet-core-2.25.1.jar:/opt/traccar/lib/javax.inject-2.5.0-b32.jar:/opt/traccar/lib/jersey-common-2.25.1.jar:/opt/traccar/lib/javax.annotation-api-1.2.jar:/opt/traccar/lib/jersey-guava-2.25.1.jar:/opt/traccar/lib/hk2-api-2.5.0-b32.jar:/opt/traccar/lib/hk2-utils-2.5.0-b32.jar:/opt/traccar/lib/aopalliance-repackaged-2.5.0-b32.jar:/opt/traccar/lib/hk2-locator-2.5.0-b32.jar:/opt/traccar/lib/javassist-3.20.0-GA.jar:/opt/traccar/lib/osgi-resource-locator-1.0.1.jar:/opt/traccar/lib/jersey-server-2.25.1.jar:/opt/traccar/lib/jersey-client-2.25.1.jar:/opt/traccar/lib/jersey-media-jaxb-2.25.1.jar:/opt/traccar/lib/validation-api-1.1.0.Final.jar:/opt/traccar/lib/javax.ws.rs-api-2.0.1.jar:/opt/traccar/lib/jersey-media-json-jackson-2.25.1.jar:/opt/traccar/lib/jersey-entity-filtering-2.25.1.jar:/opt/traccar/lib/jackson-jaxrs-base-2.8.4.jar:/opt/traccar/lib/jackson-core-2.8.4.jar:/opt/traccar/lib/jackson-databind-2.8.4.jar:/opt/traccar/lib/jackson-jaxrs-json-provider-2.8.4.jar:/opt/traccar/lib/jackson-module-jaxb-annotations-2.8.4.jar:/opt/traccar/lib/jackson-annotations-2.8.4.jar:/opt/traccar/lib/liquibase-core-3.5.3.jar:/opt/traccar/lib/snakeyaml-1.17.jar:/opt/traccar/lib/mail-1.4.7.jar:/opt/traccar/lib/activation-1.1.jar:/opt/traccar/lib/jxls-2.4.0.jar:/opt/traccar/lib/commons-jexl-2.1.1.jar:/opt/traccar/lib/commons-beanutils-1.9.2.jar:/opt/traccar/lib/jcl-over-slf4j-1.7.12.jar:/opt/traccar/lib/logback-core-1.1.3.jar:/opt/traccar/lib/jxls-poi-1.0.12.jar:/opt/traccar/lib/poi-3.14.jar:/opt/traccar/lib/poi-ooxml-3.14.jar:/opt/traccar/lib/poi-ooxml-schemas-3.14.jar:/opt/traccar/lib/xmlbeans-2.6.0.jar:/opt/traccar/lib/stax-api-1.0.1.jar:/opt/traccar/lib/curvesapi-1.03.jar:/opt/traccar/lib/velocity-1.7.jar:/opt/traccar/lib/commons-collections-3.2.1.jar:/opt/traccar/lib/commons-lang-2.4.jar:/opt/traccar/lib/velocity-tools-2.0.jar:/opt/traccar/lib/commons-digester-1.8.jar:/opt/traccar/lib/commons-chain-1.1.jar:/opt/traccar/lib/commons-logging-1.1.jar:/opt/traccar/lib/servlet-api-2.3.jar:/opt/traccar/lib/commons-validator-1.3.1.jar:/opt/traccar/lib/dom4j-1.1.jar:/opt/traccar/lib/oro-2.0.8.jar:/opt/traccar/lib/sslext-1.2-0.jar:/opt/traccar/lib/struts-core-1.3.8.jar:/opt/traccar/lib/antlr-2.7.2.jar:/opt/traccar/lib/struts-taglib-1.3.8.jar:/opt/traccar/lib/struts-tiles-1.3.8.jar:/opt/traccar/lib/ical4j-2.0.0.jar:/opt/traccar/lib/commons-collections4-4.0.jar:/opt/traccar/lib/groovy-all-2.3.2.jar:/opt/traccar/lib/bndlib-2.3.0.jar:/opt/traccar/lib/org.osgi.core-4.3.1.jar:/opt/traccar/lib/commons-lang3-3.3.2.jar:/opt/traccar/lib/commons-codec-1.9.jar:/opt/traccar/lib/ch-smpp-5.0.9.jar:/opt/traccar/lib/ch-commons-util-6.0.2.jar:/opt/traccar/lib/ch-commons-charset-3.0.2.jar" "-Dfile.encoding=UTF-8" "-Xrs" "-Dwrapper.service=true" "-Dwrapper.console.visible=false" "-Dwrapper.port=15003" "-Dwrapper.key=8339309807284609685" "-Dwrapper.teeName=8339309807284609685$1493969465065" "-Dwrapper.tmp.path=/opt/traccar/tmp" "-Djna_tmpdir=/opt/traccar/tmp" "-Dwrapper.config=/opt/traccar/conf/wrapper.conf" "-Dwrapper.visible=false" "-Dwrapper.pidfile=/run/wrapper.traccar.pid" "org.rzo.yajsw.app.WrapperJVMMain" 
+INFO|wrapper|Service traccar|17-05-05 07:31:05|posix_spawn pid 14586
+INFO|wrapper|Service traccar|17-05-05 07:31:05|started process 14586
+INFO|wrapper|Service traccar|17-05-05 07:31:05|started process with pid 14586
+INFO|14586/0|Service traccar|17-05-05 07:31:06|[INFO] StandardFileSystemManager - Using "/tmp/vfs_cache" as temporary files store.
+INFO|14586/0|Service traccar|17-05-05 07:31:07|[main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO|14586/0|Service traccar|17-05-05 07:31:08|[main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+INFO|14586/0|Service traccar|17-05-05 07:31:09|INFO 5/5/17 7:31 AM: liquibase: Clearing database change log checksums
+INFO|14586/0|Service traccar|17-05-05 07:31:09|INFO 5/5/17 7:31 AM: liquibase: Successfully acquired change log lock
+INFO|14586/0|Service traccar|17-05-05 07:31:09|INFO 5/5/17 7:31 AM: liquibase: Creating database history table with name: traccardb1.DATABASECHANGELOG
+INFO|14586/0|Service traccar|17-05-05 07:31:09|INFO 5/5/17 7:31 AM: liquibase: Successfully released change log lock
+INFO|14586/0|Service traccar|17-05-05 07:31:09|INFO 5/5/17 7:31 AM: liquibase: Successfully acquired change log lock
+INFO|14586/0|Service traccar|17-05-05 07:31:11|INFO 5/5/17 7:31 AM: liquibase: Reading from traccardb1.DATABASECHANGELOG
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.3::changelog-3.3::author: Table users created
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.3::changelog-3.3::author: Unique constraint added to users(email)
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.3::changelog-3.3::author: Table devices created
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.3::changelog-3.3::author: Unique constraint added to devices(uniqueid)
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.3::changelog-3.3::author: Table user_device created
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.3::changelog-3.3::author: Foreign key constraint added to user_device (userid)
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.3::changelog-3.3::author: Foreign key constraint added to user_device (deviceid)
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.3::changelog-3.3::author: Index user_device_user_id created
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.3::changelog-3.3::author: Table positions created
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.3::changelog-3.3::author: Foreign key constraint added to positions (deviceid)
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.3::changelog-3.3::author: Index position_deviceid_fixtime created
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.3::changelog-3.3::author: Table server created
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.3::changelog-3.3::author: New row inserted into server
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.3::changelog-3.3::author: New row inserted into users
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.3::changelog-3.3::author: ChangeSet changelog-3.3::changelog-3.3::author ran successfully in 359ms
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.5::changelog-3.5::author: Table groups created
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.5::changelog-3.5::author: Table user_group created
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.5::changelog-3.5::author: Foreign key constraint added to user_group (userid)
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.5::changelog-3.5::author: Foreign key constraint added to user_group (groupid)
+INFO|14586/0|Service traccar|17-05-05 07:31:12|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.5::changelog-3.5::author: Columns groupid(INT) added to devices
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.5::changelog-3.5::author: Null constraint dropped from users.language
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.5::changelog-3.5::author: Default value dropped from users.language
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.5::changelog-3.5::author: Column users.language dropped
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.5::changelog-3.5::author: Column server.language dropped
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.5::changelog-3.5::author: Null constraint dropped from users.map
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.5::changelog-3.5::author: Default value dropped from users.map
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.5::changelog-3.5::author: Null constraint dropped from users.distanceunit
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.5::changelog-3.5::author: Default value dropped from users.distanceunit
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.5::changelog-3.5::author: Null constraint dropped from users.speedunit
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.5::changelog-3.5::author: Default value dropped from users.speedunit
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.5::changelog-3.5::author: Columns twelvehourformat(BOOLEAN) added to users
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.5::changelog-3.5::author: Columns twelvehourformat(BOOLEAN) added to server
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.5::changelog-3.5::author: ChangeSet changelog-3.5::changelog-3.5::author ran successfully in 720ms
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.6::changelog-3.6::author: Table events created
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.6::changelog-3.6::author: Foreign key constraint added to events (deviceid)
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.6::changelog-3.6::author: Columns motion(VARCHAR(128)) added to devices
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.6::changelog-3.6::author: Table geofences created
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.6::changelog-3.6::author: Table user_geofence created
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.6::changelog-3.6::author: Foreign key constraint added to user_geofence (userid)
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.6::changelog-3.6::author: Foreign key constraint added to user_geofence (geofenceid)
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.6::changelog-3.6::author: Table group_geofence created
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.6::changelog-3.6::author: Foreign key constraint added to group_geofence (groupid)
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.6::changelog-3.6::author: Foreign key constraint added to group_geofence (geofenceid)
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.6::changelog-3.6::author: Table device_geofence created
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.6::changelog-3.6::author: Foreign key constraint added to device_geofence (deviceid)
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.6::changelog-3.6::author: Foreign key constraint added to device_geofence (geofenceid)
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.6::changelog-3.6::author: Table notifications created
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.6::changelog-3.6::author: Foreign key constraint added to notifications (userid)
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.6::changelog-3.6::author: Columns attributes(VARCHAR(4096)) added to users
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.6::changelog-3.6::author: ChangeSet changelog-3.6::changelog-3.6::author ran successfully in 568ms
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.7::changelog-3.7::author: Data updated in devices
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.7::changelog-3.7::author: Foreign key constraint added to devices (groupid)
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.7::changelog-3.7::author: Data updated in groups
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.7::changelog-3.7::author: Columns attributes(VARCHAR(4096)) added to devices
+INFO|14586/0|Service traccar|17-05-05 07:31:13|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.7::changelog-3.7::author: Column devices.motion dropped
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.7::changelog-3.7::author: Column devices.status dropped
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.7::changelog-3.7::author: Columns attributes(VARCHAR(4096)) added to groups
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.7::changelog-3.7::author: Columns attributes(VARCHAR(4096)) added to server
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.7::changelog-3.7::author: ChangeSet changelog-3.7::changelog-3.7::author ran successfully in 221ms
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.7::changelog-3.7-notmssql::author: Foreign key constraint added to groups (groupid)
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.7::changelog-3.7-notmssql::author: ChangeSet changelog-3.7::changelog-3.7-notmssql::author ran successfully in 60ms
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Table attribute_aliases created
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Foreign key constraint added to attribute_aliases (deviceid)
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Unique constraint added to attribute_aliases(deviceid, attribute)
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Data updated in users
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Data updated in users
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Data updated in users
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Table statistics created
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: server.mapurl datatype was changed to VARCHAR(512)
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Columns forcesettings(BOOLEAN) added to server
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Columns coordinateformat(VARCHAR(128)) added to users
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Columns coordinateformat(VARCHAR(128)) added to server
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Null constraint dropped from positions.attributes
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: positions.attributes datatype was changed to VARCHAR(4000)
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Null constraint dropped from events.attributes
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: events.attributes datatype was changed to VARCHAR(4000)
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Null constraint dropped from geofences.attributes
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: geofences.attributes datatype was changed to VARCHAR(4000)
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Null constraint dropped from notifications.attributes
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: notifications.attributes datatype was changed to VARCHAR(4000)
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: users.attributes datatype was changed to VARCHAR(4000)
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: devices.attributes datatype was changed to VARCHAR(4000)
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: groups.attributes datatype was changed to VARCHAR(4000)
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: server.attributes datatype was changed to VARCHAR(4000)
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Columns phone(VARCHAR(128)) added to devices
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Columns model(VARCHAR(128)) added to devices
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Columns contact(VARCHAR(512)) added to devices
+INFO|14586/0|Service traccar|17-05-05 07:31:14|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Columns category(VARCHAR(128)) added to devices
+INFO|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Columns disabled(BOOLEAN) added to users
+INFO|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Columns expirationtime(TIMESTAMP) added to users
+INFO|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Columns devicelimit(INT) added to users
+INFO|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: Columns token(VARCHAR(128)) added to users
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8::author: ChangeSet changelog-3.8::changelog-3.8::author ran successfully in 1005ms
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.8::changelog-3.8-dropuniquetoken::author: Change set changelog-3.8::changelog-3.8-dropuniquetoken::author failed, but failOnError was false.  Error: Can't DROP 'uk_user_token'; check that column/key exists [Failed SQL: ALTER TABLE traccardb1.users DROP KEY uk_user_token]
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.9::changelog-3.9::author: Columns web(BOOLEAN),mail(BOOLEAN) added to notifications
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.9::changelog-3.9::author: Data updated in notifications
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.9::changelog-3.9::author: Data updated in notifications
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.9::changelog-3.9::author: Data updated in notifications
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.9::changelog-3.9::author: Data updated in notifications
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.9::changelog-3.9::author: ChangeSet changelog-3.9::changelog-3.9::author ran successfully in 29ms
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.10::changelog-3.10::author: Table calendars created
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.10::changelog-3.10::author: Table user_calendar created
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.10::changelog-3.10::author: Foreign key constraint added to user_calendar (userid)
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.10::changelog-3.10::author: Foreign key constraint added to user_calendar (calendarid)
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.10::changelog-3.10::author: Columns calendarid(INT) added to geofences
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.10::changelog-3.10::author: Foreign key constraint added to geofences (calendarid)
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.10::changelog-3.10::author: Columns accuracy(DOUBLE),network(VARCHAR(4000)) added to positions
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.10::changelog-3.10::author: Columns userlimit(INT) added to users
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.10::changelog-3.10::author: Table user_user created
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.10::changelog-3.10::author: Foreign key constraint added to user_user (userid)
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.10::changelog-3.10::author: Data updated in users
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.10::changelog-3.10::author: Default value dropped from users.devicelimit
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.10::changelog-3.10::author: Default value added to users.devicelimit
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.10::changelog-3.10::author: Columns devicereadonly(BOOLEAN) added to users
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.10::changelog-3.10::author: ChangeSet changelog-3.10::changelog-3.10::author ran successfully in 382ms
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.10::changelog-3.10-notmssql::author: Foreign key constraint added to user_user (manageduserid)
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.10::changelog-3.10-notmssql::author: ChangeSet changelog-3.10::changelog-3.10-notmssql::author ran successfully in 36ms
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.10::changelog-3.10-mssql::author: Marking ChangeSet: changelog-3.10::changelog-3.10-mssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|          ./schema/changelog-master.xml : DBMS Precondition failed: expected mssql, got mysql
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.10::changelog-3.7-mssql::author: Marking ChangeSet: changelog-3.10::changelog-3.7-mssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|          ./schema/changelog-master.xml : DBMS Precondition failed: expected mssql, got mysql
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.11::changelog-3.11::author: Columns phone(VARCHAR(128)) added to users
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.11::changelog-3.11::author: Columns sms(BOOLEAN) added to notifications
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.11::changelog-3.11::author: Columns devicereadonly(BOOLEAN) added to server
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.11::changelog-3.11::author: Columns timezone(VARCHAR(128)) added to server
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.11::changelog-3.11::author: Columns timezone(VARCHAR(128)) added to users
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: ./schema/changelog-master.xml: changelog-3.11::changelog-3.11::author: ChangeSet changelog-3.11::changelog-3.11::author ran successfully in 189ms
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|INFO 5/5/17 7:31 AM: liquibase: Successfully released change log lock
+FINEST|14586/0|Service traccar|17-05-05 07:31:15|[main] INFO org.eclipse.jetty.util.log - Logging initialized @10249ms
+FINEST|14586/0|Service traccar|17-05-05 07:31:16|[main] INFO org.eclipse.jetty.server.Server - jetty-9.2.21.v20170120
+FINEST|14586/0|Service traccar|17-05-05 07:31:18|[main] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3db44407{/api,null,AVAILABLE}
+FINEST|14586/0|Service traccar|17-05-05 07:31:18|[main] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@4cf9f95e{HTTP/1.1}{0.0.0.0:8082}
+FINEST|14586/0|Service traccar|17-05-05 07:31:18|[main] INFO org.eclipse.jetty.server.Server - Started @12682ms

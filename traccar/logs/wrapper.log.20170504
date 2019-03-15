@@ -1,0 +1,272 @@
+WARNING|wrapper|Service traccar|17-05-04 03:51:53|YAJSW: yajsw-stable-12.08
+WARNING|wrapper|Service traccar|17-05-04 03:51:53|OS   : Linux/3.13.0-74-generic/amd64
+WARNING|wrapper|Service traccar|17-05-04 03:51:53|JVM  : Oracle Corporation/1.7.0_121//usr/lib/jvm/java-7-openjdk-amd64/jre/64
+INFO|wrapper|Service traccar|17-05-04 03:51:53|exec:"java" "-classpath" "/opt/traccar/wrapperApp.jar:/opt/traccar/tracker-server.jar:/opt/traccar/lib/log4j-1.2.17.jar:/opt/traccar/lib/joda-time-2.9.9.jar:/opt/traccar/lib/h2-1.4.194.jar:/opt/traccar/lib/mysql-connector-java-5.1.41.jar:/opt/traccar/lib/postgresql-42.0.0.jre7.jar:/opt/traccar/lib/mssql-jdbc-6.1.0.jre7.jar:/opt/traccar/lib/HikariCP-java7-2.4.11.jar:/opt/traccar/lib/slf4j-api-1.7.21.jar:/opt/traccar/lib/netty-3.10.6.Final.jar:/opt/traccar/lib/async-http-client-1.9.40.jar:/opt/traccar/lib/slf4j-simple-1.7.25.jar:/opt/traccar/lib/javax.json-1.0.4.jar:/opt/traccar/lib/jetty-server-9.2.21.v20170120.jar:/opt/traccar/lib/javax.servlet-api-3.1.0.jar:/opt/traccar/lib/jetty-http-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-io-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-servlet-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-security-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-webapp-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-xml-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-jndi-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-util-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-server-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-common-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-api-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-client-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-servlet-9.2.21.v20170120.jar:/opt/traccar/lib/jersey-container-servlet-2.25.1.jar:/opt/traccar/lib/jersey-container-servlet-core-2.25.1.jar:/opt/traccar/lib/javax.inject-2.5.0-b32.jar:/opt/traccar/lib/jersey-common-2.25.1.jar:/opt/traccar/lib/javax.annotation-api-1.2.jar:/opt/traccar/lib/jersey-guava-2.25.1.jar:/opt/traccar/lib/hk2-api-2.5.0-b32.jar:/opt/traccar/lib/hk2-utils-2.5.0-b32.jar:/opt/traccar/lib/aopalliance-repackaged-2.5.0-b32.jar:/opt/traccar/lib/hk2-locator-2.5.0-b32.jar:/opt/traccar/lib/javassist-3.20.0-GA.jar:/opt/traccar/lib/osgi-resource-locator-1.0.1.jar:/opt/traccar/lib/jersey-server-2.25.1.jar:/opt/traccar/lib/jersey-client-2.25.1.jar:/opt/traccar/lib/jersey-media-jaxb-2.25.1.jar:/opt/traccar/lib/validation-api-1.1.0.Final.jar:/opt/traccar/lib/javax.ws.rs-api-2.0.1.jar:/opt/traccar/lib/jersey-media-json-jackson-2.25.1.jar:/opt/traccar/lib/jersey-entity-filtering-2.25.1.jar:/opt/traccar/lib/jackson-jaxrs-base-2.8.4.jar:/opt/traccar/lib/jackson-core-2.8.4.jar:/opt/traccar/lib/jackson-databind-2.8.4.jar:/opt/traccar/lib/jackson-jaxrs-json-provider-2.8.4.jar:/opt/traccar/lib/jackson-module-jaxb-annotations-2.8.4.jar:/opt/traccar/lib/jackson-annotations-2.8.4.jar:/opt/traccar/lib/liquibase-core-3.5.3.jar:/opt/traccar/lib/snakeyaml-1.17.jar:/opt/traccar/lib/mail-1.4.7.jar:/opt/traccar/lib/activation-1.1.jar:/opt/traccar/lib/jxls-2.4.0.jar:/opt/traccar/lib/commons-jexl-2.1.1.jar:/opt/traccar/lib/commons-beanutils-1.9.2.jar:/opt/traccar/lib/jcl-over-slf4j-1.7.12.jar:/opt/traccar/lib/logback-core-1.1.3.jar:/opt/traccar/lib/jxls-poi-1.0.12.jar:/opt/traccar/lib/poi-3.14.jar:/opt/traccar/lib/poi-ooxml-3.14.jar:/opt/traccar/lib/poi-ooxml-schemas-3.14.jar:/opt/traccar/lib/xmlbeans-2.6.0.jar:/opt/traccar/lib/stax-api-1.0.1.jar:/opt/traccar/lib/curvesapi-1.03.jar:/opt/traccar/lib/velocity-1.7.jar:/opt/traccar/lib/commons-collections-3.2.1.jar:/opt/traccar/lib/commons-lang-2.4.jar:/opt/traccar/lib/velocity-tools-2.0.jar:/opt/traccar/lib/commons-digester-1.8.jar:/opt/traccar/lib/commons-chain-1.1.jar:/opt/traccar/lib/commons-logging-1.1.jar:/opt/traccar/lib/servlet-api-2.3.jar:/opt/traccar/lib/commons-validator-1.3.1.jar:/opt/traccar/lib/dom4j-1.1.jar:/opt/traccar/lib/oro-2.0.8.jar:/opt/traccar/lib/sslext-1.2-0.jar:/opt/traccar/lib/struts-core-1.3.8.jar:/opt/traccar/lib/antlr-2.7.2.jar:/opt/traccar/lib/struts-taglib-1.3.8.jar:/opt/traccar/lib/struts-tiles-1.3.8.jar:/opt/traccar/lib/ical4j-2.0.0.jar:/opt/traccar/lib/commons-collections4-4.0.jar:/opt/traccar/lib/groovy-all-2.3.2.jar:/opt/traccar/lib/bndlib-2.3.0.jar:/opt/traccar/lib/org.osgi.core-4.3.1.jar:/opt/traccar/lib/commons-lang3-3.3.2.jar:/opt/traccar/lib/commons-codec-1.9.jar:/opt/traccar/lib/ch-smpp-5.0.9.jar:/opt/traccar/lib/ch-commons-util-6.0.2.jar:/opt/traccar/lib/ch-commons-charset-3.0.2.jar" "-Dfile.encoding=UTF-8" "-Xrs" "-Dwrapper.service=true" "-Dwrapper.console.visible=false" "-Dwrapper.port=15003" "-Dwrapper.key=-5379206661782202613" "-Dwrapper.teeName=-5379206661782202613$1493869913062" "-Dwrapper.tmp.path=/opt/traccar/tmp" "-Djna_tmpdir=/opt/traccar/tmp" "-Dwrapper.config=/opt/traccar/conf/wrapper.conf" "-Dwrapper.visible=false" "-Dwrapper.pidfile=/run/wrapper.traccar.pid" "org.rzo.yajsw.app.WrapperJVMMain" 
+INFO|wrapper|Service traccar|17-05-04 03:51:53|posix_spawn pid 2185
+INFO|wrapper|Service traccar|17-05-04 03:51:53|started process 2185
+INFO|wrapper|Service traccar|17-05-04 03:51:53|started process with pid 2185
+INFO|2185/0|Service traccar|17-05-04 03:51:54|[INFO] StandardFileSystemManager - Using "/tmp/vfs_cache" as temporary files store.
+INFO|2185/0|Service traccar|17-05-04 03:51:55|[main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO|2185/0|Service traccar|17-05-04 03:52:00|[main] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+INFO|2185/0|Service traccar|17-05-04 03:52:00|com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:918)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2115)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2040)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:95)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:101)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:341)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:193)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:428)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:499)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:112)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:72)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at org.traccar.database.DataManager.initDatabase(DataManager.java:115)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at org.traccar.database.DataManager.<init>(DataManager.java:70)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at org.traccar.Context.init(Context.java:207)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at org.traccar.Main.main(Main.java:35)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at java.lang.reflect.Method.invoke(Method.java:606)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at org.rzo.yajsw.app.WrapperJVMMain.executeMain(WrapperJVMMain.java:60)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at org.rzo.yajsw.app.WrapperJVMMain.main(WrapperJVMMain.java:43)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+INFO|2185/0|Service traccar|17-05-04 03:52:00|
+INFO|2185/0|Service traccar|17-05-04 03:52:00|The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2056)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	... 28 more
+INFO|2185/0|Service traccar|17-05-04 03:52:00|Caused by: java.net.UnknownHostException: [HOST]
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at java.net.InetAddress.getAllByName(InetAddress.java:1183)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at java.net.InetAddress.getAllByName(InetAddress.java:1119)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:188)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	... 30 more
+INFO|2185/0|Service traccar|17-05-04 03:52:00|java.lang.reflect.InvocationTargetException
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at java.lang.reflect.Method.invoke(Method.java:606)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at org.rzo.yajsw.app.WrapperJVMMain.executeMain(WrapperJVMMain.java:60)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at org.rzo.yajsw.app.WrapperJVMMain.main(WrapperJVMMain.java:43)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|Caused by: com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:528)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:520)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:112)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:72)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at org.traccar.database.DataManager.initDatabase(DataManager.java:115)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at org.traccar.database.DataManager.<init>(DataManager.java:70)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at org.traccar.Context.init(Context.java:207)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at org.traccar.Main.main(Main.java:35)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	... 6 more
+INFO|2185/0|Service traccar|17-05-04 03:52:00|Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:918)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2115)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2040)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+INFO|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:95)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:101)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:341)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:193)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:428)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:499)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	... 12 more
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2056)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	... 28 more
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|Caused by: java.net.UnknownHostException: [HOST]
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	at java.net.InetAddress.getAllByName(InetAddress.java:1183)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	at java.net.InetAddress.getAllByName(InetAddress.java:1119)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:188)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+FINEST|2185/0|Service traccar|17-05-04 03:52:00|	... 30 more
+INFO|wrapper|Service traccar|17-05-04 03:52:01|waitpid 2185 59136
+INFO|wrapper|Service traccar|17-05-04 03:52:01|exit code posix process: 59136 application: 0
+WARNING|wrapper|Service traccar|17-05-04 03:54:16|YAJSW: yajsw-stable-12.08
+WARNING|wrapper|Service traccar|17-05-04 03:54:16|OS   : Linux/3.13.0-74-generic/amd64
+WARNING|wrapper|Service traccar|17-05-04 03:54:16|JVM  : Oracle Corporation/1.7.0_121//usr/lib/jvm/java-7-openjdk-amd64/jre/64
+INFO|wrapper|Service traccar|17-05-04 03:54:17|exec:"java" "-classpath" "/opt/traccar/wrapperApp.jar:/opt/traccar/tracker-server.jar:/opt/traccar/lib/log4j-1.2.17.jar:/opt/traccar/lib/joda-time-2.9.9.jar:/opt/traccar/lib/h2-1.4.194.jar:/opt/traccar/lib/mysql-connector-java-5.1.41.jar:/opt/traccar/lib/postgresql-42.0.0.jre7.jar:/opt/traccar/lib/mssql-jdbc-6.1.0.jre7.jar:/opt/traccar/lib/HikariCP-java7-2.4.11.jar:/opt/traccar/lib/slf4j-api-1.7.21.jar:/opt/traccar/lib/netty-3.10.6.Final.jar:/opt/traccar/lib/async-http-client-1.9.40.jar:/opt/traccar/lib/slf4j-simple-1.7.25.jar:/opt/traccar/lib/javax.json-1.0.4.jar:/opt/traccar/lib/jetty-server-9.2.21.v20170120.jar:/opt/traccar/lib/javax.servlet-api-3.1.0.jar:/opt/traccar/lib/jetty-http-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-io-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-servlet-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-security-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-webapp-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-xml-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-jndi-9.2.21.v20170120.jar:/opt/traccar/lib/jetty-util-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-server-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-common-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-api-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-client-9.2.21.v20170120.jar:/opt/traccar/lib/websocket-servlet-9.2.21.v20170120.jar:/opt/traccar/lib/jersey-container-servlet-2.25.1.jar:/opt/traccar/lib/jersey-container-servlet-core-2.25.1.jar:/opt/traccar/lib/javax.inject-2.5.0-b32.jar:/opt/traccar/lib/jersey-common-2.25.1.jar:/opt/traccar/lib/javax.annotation-api-1.2.jar:/opt/traccar/lib/jersey-guava-2.25.1.jar:/opt/traccar/lib/hk2-api-2.5.0-b32.jar:/opt/traccar/lib/hk2-utils-2.5.0-b32.jar:/opt/traccar/lib/aopalliance-repackaged-2.5.0-b32.jar:/opt/traccar/lib/hk2-locator-2.5.0-b32.jar:/opt/traccar/lib/javassist-3.20.0-GA.jar:/opt/traccar/lib/osgi-resource-locator-1.0.1.jar:/opt/traccar/lib/jersey-server-2.25.1.jar:/opt/traccar/lib/jersey-client-2.25.1.jar:/opt/traccar/lib/jersey-media-jaxb-2.25.1.jar:/opt/traccar/lib/validation-api-1.1.0.Final.jar:/opt/traccar/lib/javax.ws.rs-api-2.0.1.jar:/opt/traccar/lib/jersey-media-json-jackson-2.25.1.jar:/opt/traccar/lib/jersey-entity-filtering-2.25.1.jar:/opt/traccar/lib/jackson-jaxrs-base-2.8.4.jar:/opt/traccar/lib/jackson-core-2.8.4.jar:/opt/traccar/lib/jackson-databind-2.8.4.jar:/opt/traccar/lib/jackson-jaxrs-json-provider-2.8.4.jar:/opt/traccar/lib/jackson-module-jaxb-annotations-2.8.4.jar:/opt/traccar/lib/jackson-annotations-2.8.4.jar:/opt/traccar/lib/liquibase-core-3.5.3.jar:/opt/traccar/lib/snakeyaml-1.17.jar:/opt/traccar/lib/mail-1.4.7.jar:/opt/traccar/lib/activation-1.1.jar:/opt/traccar/lib/jxls-2.4.0.jar:/opt/traccar/lib/commons-jexl-2.1.1.jar:/opt/traccar/lib/commons-beanutils-1.9.2.jar:/opt/traccar/lib/jcl-over-slf4j-1.7.12.jar:/opt/traccar/lib/logback-core-1.1.3.jar:/opt/traccar/lib/jxls-poi-1.0.12.jar:/opt/traccar/lib/poi-3.14.jar:/opt/traccar/lib/poi-ooxml-3.14.jar:/opt/traccar/lib/poi-ooxml-schemas-3.14.jar:/opt/traccar/lib/xmlbeans-2.6.0.jar:/opt/traccar/lib/stax-api-1.0.1.jar:/opt/traccar/lib/curvesapi-1.03.jar:/opt/traccar/lib/velocity-1.7.jar:/opt/traccar/lib/commons-collections-3.2.1.jar:/opt/traccar/lib/commons-lang-2.4.jar:/opt/traccar/lib/velocity-tools-2.0.jar:/opt/traccar/lib/commons-digester-1.8.jar:/opt/traccar/lib/commons-chain-1.1.jar:/opt/traccar/lib/commons-logging-1.1.jar:/opt/traccar/lib/servlet-api-2.3.jar:/opt/traccar/lib/commons-validator-1.3.1.jar:/opt/traccar/lib/dom4j-1.1.jar:/opt/traccar/lib/oro-2.0.8.jar:/opt/traccar/lib/sslext-1.2-0.jar:/opt/traccar/lib/struts-core-1.3.8.jar:/opt/traccar/lib/antlr-2.7.2.jar:/opt/traccar/lib/struts-taglib-1.3.8.jar:/opt/traccar/lib/struts-tiles-1.3.8.jar:/opt/traccar/lib/ical4j-2.0.0.jar:/opt/traccar/lib/commons-collections4-4.0.jar:/opt/traccar/lib/groovy-all-2.3.2.jar:/opt/traccar/lib/bndlib-2.3.0.jar:/opt/traccar/lib/org.osgi.core-4.3.1.jar:/opt/traccar/lib/commons-lang3-3.3.2.jar:/opt/traccar/lib/commons-codec-1.9.jar:/opt/traccar/lib/ch-smpp-5.0.9.jar:/opt/traccar/lib/ch-commons-util-6.0.2.jar:/opt/traccar/lib/ch-commons-charset-3.0.2.jar" "-Dfile.encoding=UTF-8" "-Xrs" "-Dwrapper.service=true" "-Dwrapper.console.visible=false" "-Dwrapper.port=15003" "-Dwrapper.key=3021036830786813575" "-Dwrapper.teeName=3021036830786813575$1493870056764" "-Dwrapper.tmp.path=/opt/traccar/tmp" "-Djna_tmpdir=/opt/traccar/tmp" "-Dwrapper.config=/opt/traccar/conf/wrapper.conf" "-Dwrapper.visible=false" "-Dwrapper.pidfile=/run/wrapper.traccar.pid" "org.rzo.yajsw.app.WrapperJVMMain" 
+INFO|wrapper|Service traccar|17-05-04 03:54:17|posix_spawn pid 2485
+INFO|wrapper|Service traccar|17-05-04 03:54:17|started process 2485
+INFO|wrapper|Service traccar|17-05-04 03:54:17|started process with pid 2485
+INFO|2485/0|Service traccar|17-05-04 03:54:18|[INFO] StandardFileSystemManager - Using "/tmp/vfs_cache" as temporary files store.
+INFO|2485/0|Service traccar|17-05-04 03:54:19|[main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO|2485/0|Service traccar|17-05-04 03:54:24|[main] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+INFO|2485/0|Service traccar|17-05-04 03:54:24|com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:918)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2115)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2040)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:95)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:101)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:341)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:193)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:428)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:499)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:112)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:72)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at org.traccar.database.DataManager.initDatabase(DataManager.java:115)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at org.traccar.database.DataManager.<init>(DataManager.java:70)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at org.traccar.Context.init(Context.java:207)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at org.traccar.Main.main(Main.java:35)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at java.lang.reflect.Method.invoke(Method.java:606)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at org.rzo.yajsw.app.WrapperJVMMain.executeMain(WrapperJVMMain.java:60)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at org.rzo.yajsw.app.WrapperJVMMain.main(WrapperJVMMain.java:43)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+INFO|2485/0|Service traccar|17-05-04 03:54:24|
+INFO|2485/0|Service traccar|17-05-04 03:54:24|The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2056)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	... 28 more
+INFO|2485/0|Service traccar|17-05-04 03:54:24|Caused by: java.net.UnknownHostException: [HOST]
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at java.net.InetAddress.getAllByName(InetAddress.java:1183)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at java.net.InetAddress.getAllByName(InetAddress.java:1119)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:188)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	... 30 more
+INFO|2485/0|Service traccar|17-05-04 03:54:24|java.lang.reflect.InvocationTargetException
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at java.lang.reflect.Method.invoke(Method.java:606)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at org.rzo.yajsw.app.WrapperJVMMain.executeMain(WrapperJVMMain.java:60)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at org.rzo.yajsw.app.WrapperJVMMain.main(WrapperJVMMain.java:43)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|Caused by: com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:528)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:520)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:112)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:72)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at org.traccar.database.DataManager.initDatabase(DataManager.java:115)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at org.traccar.database.DataManager.<init>(DataManager.java:70)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at org.traccar.Context.init(Context.java:207)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at org.traccar.Main.main(Main.java:35)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	... 6 more
+INFO|2485/0|Service traccar|17-05-04 03:54:24|Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:918)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2115)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2040)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+INFO|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:95)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:101)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:341)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:193)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:428)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:499)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	... 12 more
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2056)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	... 28 more
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|Caused by: java.net.UnknownHostException: [HOST]
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	at java.net.InetAddress.getAllByName(InetAddress.java:1183)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	at java.net.InetAddress.getAllByName(InetAddress.java:1119)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:188)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+FINEST|2485/0|Service traccar|17-05-04 03:54:24|	... 30 more
+INFO|wrapper|Service traccar|17-05-04 03:54:24|waitpid 2485 59136
+INFO|wrapper|Service traccar|17-05-04 03:54:24|exit code posix process: 59136 application: 0
